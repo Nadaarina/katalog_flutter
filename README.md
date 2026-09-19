@@ -1,17 +1,35 @@
-# katalog_flutter
+# Katalog Flutter
 
-A new Flutter project.
+A simple Flutter application that displays a catalog of students and provides a detail page for each catalog item.
 
-## Getting Started
+## Description
 
-This project is a starting point for a Flutter application.
+Katalog Flutter is a simple mobile application built with Flutter. The application demonstrates basic Flutter concepts such as StatelessWidget, StatefulWidget, ListView, Card, ListTile, navigation using Navigator.push, and state management using setState.
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Display a catalog containing three students:
+  - Nada Arina
+  - Tzurayya Aisyah
+  - Bilqis Muna
+- Clickable catalog cards
+- Navigation from the catalog page to the detail page
+- Detail information for each student
+- Favorite button with interactive state
+- Back navigation using AppBar
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Technologies
+
+- Flutter
+- Dart
+- Material Design
+- Visual Studio Code
+
+## Project Structure
+
+```text
+lib/
+├── main.dart
+└── screens/
+    ├── home_screen.dart
+    └── detail_screen.dart
